@@ -38,9 +38,6 @@ FIAP.CP2
 
 ---
 
-
----
-
 ## 🗄️ Banco de Dados Oracle
 
 Conexão configurada com o banco **FIAP Oracle Cloud**:
@@ -49,4 +46,54 @@ Conexão configurada com o banco **FIAP Oracle Cloud**:
 optionsBuilder.UseOracle(
     "User Id=rm560601;Password=040301;Data Source=oracle.fiap.com.br:1521/ORCL;"
 );
+```
+---
 
+## ⚙️ Funcionalidades Implementadas
+
+| Módulo | Descrição | Funcionalidades |
+|--------|------------|----------------|
+| 🧍‍♂️ **Aluno** | Gerenciamento de alunos matriculados | Criar, editar, listar e excluir alunos |
+| 🏃‍♂️ **Atleta** | Cadastro de atletas com nível e idade | CRUD completo + interface visual moderna |
+| 💪 **Exercício** | Controle dos exercícios de calistenia | Campos: Nome, Grupo Muscular, Séries, Repetições e Duração |
+| 📅 **Treino** | Organização dos treinos por dia da semana | Visualização de dias e duração dos treinos com *badges* coloridas |
+
+---
+
+## 🎨 Interface Visual
+
+As views foram personalizadas com **Bootstrap** e **Bootstrap Icons**, aplicando um design simples, moderno e responsivo.
+
+### 🏠 Página Inicial (Home)
+- Exibe atalhos para todos os módulos: **Atletas**, **Exercícios** e **Treinos**
+- Ícones de navegação com layout em *cards*
+
+### 🏋️ Lista de Exercícios
+- Tabela responsiva com ícones e cores dinâmicas por dificuldade  
+- Botões estilizados com ícones: ✏️ **Editar**, 👁️ **Detalhes**, 🗑️ **Excluir**
+
+### 📅 Lista de Treinos
+- Exibe os treinos da semana com *badges* coloridas por dia  
+- Ícones de calendário, cronômetro e edição  
+
+---
+
+## 🧠 Tecnologias Utilizadas
+
+| Categoria | Ferramenta |
+|------------|-------------|
+| 💻 **Linguagem** | C# (.NET 9.0) |
+| 🌐 **Framework Web** | ASP.NET Core MVC |
+| 🧱 **ORM** | Entity Framework Core (Oracle Provider) |
+| 🗄️ **Banco de Dados** | Oracle Cloud (FIAP) |
+| 🎨 **Front-end** | Razor Pages + Bootstrap 5 + Bootstrap Icons |
+| 🧩 **IDE** | Visual Studio 2022 |
+
+---
+
+## 🔧 Como Executar o Projeto
+
+### 1️⃣ Clonar o Repositório
+```bash
+git clone https://github.com/<seu-usuario>/FIAP.CP2.git
+```
