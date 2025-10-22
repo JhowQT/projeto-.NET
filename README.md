@@ -97,3 +97,63 @@ As views foram personalizadas com **Bootstrap** e **Bootstrap Icons**, aplicando
 ```bash
 git clone https://github.com/JhowQT/projeto-.NET
 ```
+---
+
+### 2️⃣ Abrir no Visual Studio
+
+- Vá em **File → Open → Project/Solution**  
+- Selecione o arquivo `FIAP.CP2.sln`
+
+---
+
+### 3️⃣ Configurar a Conexão Oracle
+
+Abra o arquivo `appsettings.json` e altere com seu **RM** e **senha**:
+
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "User Id=rmXXXXXX;Password=XXXXX;Data Source=oracle.fiap.com.br:1521/ORCL;"
+}
+```
+
+---
+
+### 4️⃣ Aplicar as Migrations (caso necessário)
+
+No **Package Manager Console**, execute o comando:
+
+```bash
+Update-Database
+```
+
+---
+
+### 5️⃣ Executar a Aplicação
+
+Pressione **Ctrl + F5** ou clique em ▶️ **Run**  
+O sistema abrirá automaticamente em:
+
+```
+https://localhost:7183/
+```
+
+---
+
+## 📸 Exemplos de Telas
+
+| Tela | Descrição |
+|------|-----------|
+| 🏠 **Home** | Página inicial com acesso aos módulos |
+| 🏃 **Atletas** | CRUD completo com lista e botões de ação |
+| 💪 **Exercícios** | Tabela responsiva com design moderno e ícones |
+| 📅 **Treinos** | Visualização com cores e *badges* por dia da semana |
+
+---
+
+## 👨‍💻 Autor
+
+**Jhonatan Quispe Torrez**  
+🎓 *FIAP – Análise e Desenvolvimento de Sistemas*  
+💼 *Projeto desenvolvido para a disciplina de Desenvolvimento Web com .NET*  
+📧 **Contato:** [LinkedIn](https://www.linkedin.com) / [GitHub](https://github.com)
+
