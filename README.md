@@ -95,5 +95,5 @@ As views foram personalizadas com **Bootstrap** e **Bootstrap Icons**, aplicando
 
 ### 1️⃣ Clonar o Repositório
 ```bash
-git clone https://github.com/<seu-usuario>/FIAP.CP2.git
+git clone https://github.com/JhowQT/projeto-.NET
 ```
