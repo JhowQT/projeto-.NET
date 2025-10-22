@@ -157,3 +157,48 @@ https://localhost:7183/
 💼 *Projeto desenvolvido para a disciplina de Desenvolvimento Web com .NET*  
 📧 **Contato:** [LinkedIn](https://www.linkedin.com) / [GitHub](https://github.com)
 
+---
+
+## 🔗 Endpoints da Aplicação
+
+| Método | Endpoint | Descrição | Controller |
+|---------|-----------|------------|-------------|
+| **GET** | `/Atletas` | Lista todos os atletas cadastrados | `AtletasController` |
+| **GET** | `/Atletas/Details/{id}` | Exibe detalhes de um atleta específico | `AtletasController` |
+| **GET** | `/Atletas/Create` | Exibe o formulário de criação de atleta | `AtletasController` |
+| **POST** | `/Atletas/Create` | Cadastra um novo atleta no banco | `AtletasController` |
+| **GET** | `/Atletas/Edit/{id}` | Exibe o formulário de edição de um atleta | `AtletasController` |
+| **POST** | `/Atletas/Edit/{id}` | Atualiza os dados de um atleta existente | `AtletasController` |
+| **GET** | `/Atletas/Delete/{id}` | Exibe a confirmação de exclusão de atleta | `AtletasController` |
+| **POST** | `/Atletas/Delete/{id}` | Exclui um atleta definitivamente | `AtletasController` |
+
+| Método | Endpoint | Descrição | Controller |
+|---------|-----------|------------|-------------|
+| **GET** | `/Exercicios` | Lista todos os exercícios cadastrados | `ExerciciosController` |
+| **GET** | `/Exercicios/Details/{id}` | Exibe detalhes de um exercício específico | `ExerciciosController` |
+| **GET** | `/Exercicios/Create` | Exibe o formulário de criação de exercício | `ExerciciosController` |
+| **POST** | `/Exercicios/Create` | Cadastra um novo exercício no banco | `ExerciciosController` |
+| **GET** | `/Exercicios/Edit/{id}` | Exibe o formulário de edição de exercício | `ExerciciosController` |
+| **POST** | `/Exercicios/Edit/{id}` | Atualiza os dados de um exercício existente | `ExerciciosController` |
+| **GET** | `/Exercicios/Delete/{id}` | Exibe a confirmação de exclusão de exercício | `ExerciciosController` |
+| **POST** | `/Exercicios/Delete/{id}` | Exclui um exercício definitivamente | `ExerciciosController` |
+
+| Método | Endpoint | Descrição | Controller |
+|---------|-----------|------------|-------------|
+| **GET** | `/Treinos` | Lista todos os treinos cadastrados | `TreinosController` |
+| **GET** | `/Treinos/Details/{id}` | Exibe detalhes de um treino específico | `TreinosController` |
+| **GET** | `/Treinos/Create` | Exibe o formulário de criação de treino | `TreinosController` |
+| **POST** | `/Treinos/Create` | Cadastra um novo treino no banco | `TreinosController` |
+| **GET** | `/Treinos/Edit/{id}` | Exibe o formulário de edição de treino | `TreinosController` |
+| **POST** | `/Treinos/Edit/{id}` | Atualiza os dados de um treino existente | `TreinosController` |
+| **GET** | `/Treinos/Delete/{id}` | Exibe a confirmação de exclusão de treino | `TreinosController` |
+| **POST** | `/Treinos/Delete/{id}` | Exclui um treino definitivamente | `TreinosController` |
+
+---
+
+🧩 **Observações:**
+- Todos os endpoints seguem o padrão MVC e usam *views Razor* para renderizar as telas.  
+- As ações **GET** exibem as páginas e as ações **POST** enviam os dados para o banco Oracle.  
+- O Entity Framework Core faz o mapeamento automático das tabelas.  
+
+
