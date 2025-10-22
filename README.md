@@ -17,3 +17,18 @@ Ele oferece um painel administrativo com interface moderna e CRUD completo para 
 
 ## 🧩 Estrutura do Projeto
 
+FIAP.CP2
+├── FIAP.CP2.Data # Camada de acesso a dados (DbContext, Migrations)
+│ ├── ApplicationDbContext.cs
+│ └── ApplicationDbContextFactory.cs
+│
+├── FIAP.CP2.Model # Modelos das entidades (Aluno, Atleta, Exercicio, Treino)
+│
+├── FIAP.CP2.Business # (Camada de regras de negócio - opcional)
+│
+├── FIAP.CP2.UI # Interface Web MVC
+│ ├── Controllers # Controladores com as rotas CRUD
+│ ├── Views # Páginas Razor (.cshtml)
+│ ├── wwwroot # Estilos, scripts e recursos estáticos
+│ ├── appsettings.json # Configurações de conexão Oracle
+│ └── Program.cs
