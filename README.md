@@ -17,7 +17,9 @@ Ele oferece um painel administrativo com interface moderna e CRUD completo para 
 
 ## 🧩 Estrutura do Projeto
 
+
 FIAP.CP2
+```
 ├── FIAP.CP2.Data # Camada de acesso a dados (DbContext, Migrations)
 │ ├── ApplicationDbContext.cs
 │ └── ApplicationDbContextFactory.cs
@@ -32,3 +34,4 @@ FIAP.CP2
 │ ├── wwwroot # Estilos, scripts e recursos estáticos
 │ ├── appsettings.json # Configurações de conexão Oracle
 │ └── Program.cs
+```
