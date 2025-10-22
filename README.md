@@ -35,3 +35,18 @@ FIAP.CP2
 │ ├── appsettings.json # Configurações de conexão Oracle
 │ └── Program.cs
 ```
+
+---
+
+
+---
+
+## 🗄️ Banco de Dados Oracle
+
+Conexão configurada com o banco **FIAP Oracle Cloud**:
+
+```csharp
+optionsBuilder.UseOracle(
+    "User Id=rm560601;Password=040301;Data Source=oracle.fiap.com.br:1521/ORCL;"
+);
+
